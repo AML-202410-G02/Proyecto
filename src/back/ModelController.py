@@ -10,7 +10,9 @@ from src.model.DataPreprocessor import DataPreprocessor
 class ModelController:
 
     def __init__(self):
-        self.model_path = "resources\models\model.joblib"
+        self.model_path = osp.join('resources','models','model.joblib')
+        if not osp.exists(self.model_path):
+            raise FileNotFoundError(f"El archivo no fue encontrado en {self.model_path}")
         self.model = load(self.model_path)
 
         self.preprocessor = DataPreprocessor()
