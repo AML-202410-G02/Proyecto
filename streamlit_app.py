@@ -23,7 +23,7 @@ estimar el consumo de batería de drones bajo diferentes condiciones de vuelo us
 
 ## ¿Cómo funciona?
 1. Suba un archivo CSV con los datos de vuelo de drones.
-2. La aplicación el archivo con los cuales quire hacer la prueba.
+2. La aplicación muestra los datos del archivo cargado para hacer la prueba.
 3. De clic en 'Hacer predicciones' para que muestre los resultados. Este mostrará para cada prueba de vuelo ingresada el consumo que tendrá la bateria.
 
 Para comenzar, por favor, sube tu archivo CSV utilizando el botón de abajo.
