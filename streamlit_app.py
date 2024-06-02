@@ -16,7 +16,18 @@ ctrl = ModelController()
 
 # UI
 st.title('Predicción de consumo de bateria en drones')
+# Texto introductorio
+st.markdown("""
+Bienvenido a la herramienta. Esta aplicación permite 
+estimar el consumo de batería de drones bajo diferentes condiciones de vuelo usando Técnicas supervisadas de Machine Learning. 
 
+## ¿Cómo funciona?
+1. Suba un archivo CSV con los datos de vuelo de drones.
+2. La aplicación el archivo con los cuales quire hacer la prueba.
+3. De clic en 'Hacer predicciones' para que muestre los resultados. Este mostrará para cada prueba de vuelo ingresada el consumo que tendrá la bateria.
+
+Para comenzar, por favor, sube tu archivo CSV utilizando el botón de abajo.
+""")
 # Subir archivo CSV
 uploaded_file = st.file_uploader("Subir archivo CSV", type=["csv"])
 
