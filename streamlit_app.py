@@ -15,7 +15,7 @@ def generate_progress_bar(value):
 ctrl = ModelController()
 
 # UI
-st.title('Predecir el consumo de la batería de un dron')
+st.title('Predicción de consumo de bateria en drones')
 
 # Subir archivo CSV
 uploaded_file = st.file_uploader("Subir archivo CSV", type=["csv"])
